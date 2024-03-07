@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgba(242, 247, 250);
+  background-image: url("./images/6714.jpg");
+  background-size: contain  ;
+  min-height: 100vh;
+}
+main{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 10vh; */
+}
+h1{
+  color: #D1D5DB;
+  font-size: 50px;
+}
+#add-btn{
+  background-color: #D1D5DB;
+  padding: 8px 16px;
+  color: #374751;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+#add-btn:hover{
+  cursor: pointer;
+  background-color: #00afbe;;
+}
+.books-container{
+  background-color: hsl(215deg 27.91% 16.86%);
+  border-radius: 5px;
+  width: 80%;
+  margin: auto;
+  padding: 16px;
+  color: #D1D5DB;
+}
+.book-display{
+  /* margin: 25px 0; */
+  padding-bottom: 10px;
+  /* border-bottom: 1px solid #fff; */
+}
+.book-card{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+}
+.book-info{
+  color: #D1D5DB;
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+}
+.icons-conatainer{
+  display: flex;
+  gap: 20px;
+}
+.icons-conatainer label{
+  font-size: 20px;
+}
+.icons-conatainer svg{
+  cursor: pointer;
+  fill: red;
+}
+.icons-conatainer input{
+  cursor: pointer;
+}
+.modal{
+  display: none;
+  position: absolute;
+  top: 140%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  border-top: solid 25px #01b8ab;
+  background-color: #fff;
+  padding: 32px;
+  border-radius: 5px;
+}
+.modal form{
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+}
+.modal form input{
+  outline: none;
+  border: none;
+  background-color: #e6eef4;
+  margin: 10px 0;
+  padding: 10px;
+}
+.btns-container{
+  display: flex;
+  justify-content: end;
+  gap: 18px;
+}
+.btns-container button{
+  margin-top: 10px;
+  background-color: #D1D5DB;
+  padding: 8px 16px;
+  color: #374751;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 14px;
+}
+.btns-container button:hover{
+  cursor: pointer;
+}
+#cancel-btn:hover{
+  background-color: #ff6347;
+}
+#submit-btn:hover{
+  background-color: #00afbe;
+}
